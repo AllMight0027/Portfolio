@@ -28,6 +28,38 @@
   color: #61dafb;
 }
 
+.textEffect {
+  font-size: 5rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 100 !important;
+}
+
+.textEffect2 {
+  font-size: 3.8rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 100 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .textEffect {
+    font-size: 3.8rem;
+  }
+  .textEffect2 {
+    font-size: 3rem;
+  }
+  canvas {
+    display: none;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
