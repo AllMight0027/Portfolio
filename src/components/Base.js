@@ -4,6 +4,7 @@ import { ReactComponent as TeamIcon } from "./team.svg";
 import { ReactComponent as AboutMeIcon } from "./aboutme.svg";
 import { ReactComponent as EducationIcon } from "./education.svg";
 import { ReactComponent as ContactIcon } from "./contact.svg";
+import $ from "jquery";
 
 const Base = ({ className = "text-dark p-4", children, history }) => {
   function myFunction() {
@@ -14,9 +15,32 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
       x.className = "topnav";
     }
   }
+  window.onscroll = function () {
+    if (
+      document.body.scrollTop > 50 ||
+      document.documentElement.scrollTop > 50
+    ) {
+      document.getElementById("goTop").style.display = "block";
+    } else {
+      document.getElementById("goTop").style.display = "none";
+    }
+  };
 
   return (
     <div>
+      <img
+        id="goTop"
+        src="https://img.icons8.com/fluent/35/000000/up.png"
+        style={{
+          // position: "absolute",
+          bottom: 15,
+          right: 15,
+          cursor: "pointer",
+        }}
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
+      />
       <div className="container-fluid">
         <div className="row" style={{ backgroundColor: "black" }}>
           <div className="col-12">
@@ -24,18 +48,21 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
               <a style={{ marginLeft: "-20px" }}></a>
               <a
                 className="pl-4 text-white"
-                style={{ paddingTop: "0px", cursor: "pointer" }}
+                style={{ paddingTop: "2px", cursor: "pointer" }}
                 onClick={() => {
                   window.scrollTo(0, 800);
                 }}
               >
-                <AboutMeIcon /> About Me
+                <AboutMeIcon /> {"  "}About Me
               </a>
               <a
                 className="pl-4 text-white"
                 style={{ paddingTop: "0px", cursor: "pointer" }}
                 onClick={() => {
-                  window.scrollTo(0, 1200);
+                  window.scrollTo(
+                    0,
+                    855 + document.getElementById("aboutme").offsetHeight
+                  );
                 }}
               >
                 <TeamIcon /> Projects
@@ -44,16 +71,21 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                 className="pl-4 text-white"
                 style={{ paddingTop: "0px", cursor: "pointer" }}
                 onClick={() => {
-                  //Scroll to About Us
+                  window.scrollTo(
+                    0,
+                    1055 +
+                      document.getElementById("aboutme").offsetHeight +
+                      document.getElementById("projects").offsetHeight
+                  );
                 }}
               >
                 <EducationIcon /> Education
               </a>
               <a
                 className="pl-4 text-white"
-                style={{ paddingTop: "0px", cursor: "pointer" }}
+                style={{ paddingTop: "4px", cursor: "pointer" }}
                 onClick={() => {
-                  //Scroll to About Us
+                  window.scrollTo(0, document.body.scrollHeight);
                 }}
               >
                 <ContactIcon /> Contact Me
@@ -82,25 +114,35 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
             <div className="col-12 text-center text-white pb-3">
               {" "}
               CONTACT ME <br />
+              <br />
               <a href="mailto:pratyakshsaxena88@gmail.com">
-                <img src="https://img.icons8.com/clouds/70/000000/email.png" />
+                <img
+                  src="https://img.icons8.com/color/48/000000/email.png"
+                  className="mr-2"
+                />
               </a>
               <a href="tel:+91-8009551506">
-                <img src="https://img.icons8.com/clouds/70/000000/phone.png" />
+                <img
+                  src="https://img.icons8.com/fluent/45/000000/phone-disconnected.png"
+                  className="mr-2"
+                />
               </a>
               <a
                 href="http://github.com/AllMight0027"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="https://img.icons8.com/clouds/70/000000/github.png" />
+                <img
+                  src="https://img.icons8.com/fluent/48/000000/github.png"
+                  className="mr-2"
+                />
               </a>
               <a
                 href="http://www.linkedin.com/in/pratyaksh-saxena-83a51a90/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="https://img.icons8.com/clouds/75/000000/linkedin.png" />
+                <img src="https://img.icons8.com/office/44/000000/linkedin.png" />
               </a>
             </div>
           </div>
