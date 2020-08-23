@@ -4,7 +4,7 @@ import "../App.css";
 
 const Type2 = () => {
   return (
-    <div className=" container-fluid text-center textEffect2">
+    <div className=" container-fluid text-center textEffect2" id="job">
       <ReactTypingEffect
         text={["Full Stack Developer"]} //text=["Hello.", "World!"]
       />
