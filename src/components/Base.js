@@ -114,7 +114,8 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                 onClick={() => {
                   window.scrollTo(
                     0,
-                    document.getElementById("type").offsetHeight
+                    document.getElementById("aboutme").getBoundingClientRect()
+                      .top - 50
                   );
                 }}
               >
@@ -126,7 +127,8 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                 onClick={() => {
                   window.scrollTo(
                     0,
-                    855 + document.getElementById("aboutme").offsetHeight
+                    document.getElementById("projects").getBoundingClientRect()
+                      .top - 50
                   );
                 }}
               >
@@ -138,9 +140,8 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                 onClick={() => {
                   window.scrollTo(
                     0,
-                    1055 +
-                      document.getElementById("aboutme").offsetHeight +
-                      document.getElementById("projects").offsetHeight
+                    document.getElementById("skills").getBoundingClientRect()
+                      .top - 50
                   );
                 }}
               >
@@ -152,11 +153,8 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                 onClick={() => {
                   window.scrollTo(
                     0,
-                    1055 +
-                      document.getElementById("aboutme").offsetHeight +
-                      document.getElementById("projects").offsetHeight +
-                      document.getElementById("skills").offsetHeight +
-                      50
+                    document.getElementById("education").getBoundingClientRect()
+                      .top - 50
                   );
                 }}
               >

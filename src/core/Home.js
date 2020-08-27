@@ -57,7 +57,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-3 mt-5">
+        <div className="row mb-3 mt-5" id="projects">
           <div className="col-12 text-center">
             <h1>PROJECTS</h1>
           </div>
@@ -77,7 +77,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="row mt-3" id="projects">
+        <div className="row mt-3">
           {(filter === "" || filter === "Full Stack") && (
             <div className="col-xl-4 col-sm-12 col-md-6 mt-3 mb-3">
               <div
@@ -941,12 +941,12 @@ const Home = () => {
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow="90"
+                      aria-valuenow="70"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "90%" }}
+                      style={{ width: "70%" }}
                     >
-                      90%
+                      70%
                     </div>
                   </div>{" "}
                   <br />
@@ -958,12 +958,12 @@ const Home = () => {
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow="90"
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "90%" }}
+                      style={{ width: "80%" }}
                     >
-                      90%
+                      80%
                     </div>
                   </div>{" "}
                   <br />
@@ -1014,12 +1014,12 @@ const Home = () => {
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow="80"
+                      aria-valuenow="75"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "80%" }}
+                      style={{ width: "75%" }}
                     >
-                      80%
+                      75%
                     </div>
                   </div>{" "}
                   <br />
@@ -1096,12 +1096,12 @@ const Home = () => {
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow="90"
+                      aria-valuenow="80"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "90%" }}
+                      style={{ width: "80%" }}
                     >
-                      90%
+                      80%
                     </div>
                   </div>{" "}
                   <br />
@@ -1127,7 +1127,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="row mt-5 ">
+        <div className="row mt-5 " id="education">
           <div className="col-12 text-center">
             <h1>EDUCATION</h1>
           </div>
