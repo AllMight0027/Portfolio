@@ -997,12 +997,12 @@ const Home = () => {
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow="100"
+                      aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "100%" }}
+                      aria-valuemax="90"
+                      style={{ width: "90%" }}
                     >
-                      100%
+                      90%
                     </div>
                   </div>{" "}
                   <br />
@@ -1032,12 +1032,12 @@ const Home = () => {
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow="100"
+                      aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "100%" }}
+                      aria-valuemax="90"
+                      style={{ width: "90%" }}
                     >
-                      100%
+                      90%
                     </div>
                   </div>{" "}
                   <br />
@@ -1113,12 +1113,12 @@ const Home = () => {
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow="100"
+                      aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                      style={{ width: "100%" }}
+                      aria-valuemax="90"
+                      style={{ width: "90%" }}
                     >
-                      100%
+                      90%
                     </div>
                   </div>{" "}
                 </h6>
