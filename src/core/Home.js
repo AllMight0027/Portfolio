@@ -937,6 +937,7 @@ const Home = () => {
                     src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
                     title="C++"
                   />{" "}
+                  C++
                   <div className="progress mt-2">
                     <div
                       className="progress-bar"
@@ -966,6 +967,7 @@ const Home = () => {
                       80%
                     </div>
                   </div>{" "}
+                  Python
                   <br />
                   <img
                     src="https://img.icons8.com/color/48/000000/javascript.png"
@@ -983,6 +985,7 @@ const Home = () => {
                       80%
                     </div>
                   </div>{" "}
+                  JavaScript
                   <br />
                 </h6>
               </div>
@@ -1005,6 +1008,7 @@ const Home = () => {
                       90%
                     </div>
                   </div>{" "}
+                  HTML5
                   <br />
                   <img
                     src="https://img.icons8.com/color/48/000000/css3.png"
@@ -1022,6 +1026,7 @@ const Home = () => {
                       75%
                     </div>
                   </div>{" "}
+                  CSS3
                   <br />
                   <img
                     alt="svgImg"
@@ -1040,6 +1045,7 @@ const Home = () => {
                       90%
                     </div>
                   </div>{" "}
+                  NodeJS
                   <br />
                 </h6>
               </div>
@@ -1066,6 +1072,7 @@ const Home = () => {
                       50%
                     </div>
                   </div>{" "}
+                  Kotlin
                   <br />
                   <img
                     src="https://img.icons8.com/nolan/48/mysql.png"
@@ -1083,6 +1090,7 @@ const Home = () => {
                       70%
                     </div>
                   </div>{" "}
+                  MySql
                 </h6>
               </div>
               <div className="col-6 text-left">
@@ -1104,6 +1112,7 @@ const Home = () => {
                       80%
                     </div>
                   </div>{" "}
+                  ReactJS
                   <br />
                   <img
                     src="https://img.icons8.com/color/48/000000/mongodb.png"
@@ -1121,6 +1130,7 @@ const Home = () => {
                       90%
                     </div>
                   </div>{" "}
+                  MongoDB
                 </h6>
               </div>
             </div>
