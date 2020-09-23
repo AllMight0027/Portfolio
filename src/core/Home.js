@@ -4,6 +4,7 @@ import Particles from "react-particles-js";
 import "../App.css";
 import Type from "../components/Type";
 import Type2 from "../components/Type2";
+import { ReactComponent as node } from "../components/nodejs.svg";
 
 const Home = () => {
   const [filter, setFilter] = useState("");
@@ -934,10 +935,9 @@ const Home = () => {
                 <div className="row"></div>
                 <h6 style={{ lineHeight: "2em" }}>
                   <img
-                    src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+                    src="https://img.icons8.com/color/60/000000/c-plus-plus-logo.png"
                     title="C++"
                   />{" "}
-                  C++
                   <div className="progress mt-2">
                     <div
                       className="progress-bar"
@@ -952,7 +952,7 @@ const Home = () => {
                   </div>{" "}
                   <br />
                   <img
-                    src="https://img.icons8.com/color/48/000000/python.png"
+                    src="https://img.icons8.com/color/60/000000/python.png"
                     title="Python"
                   />{" "}
                   <div className="progress mt-2">
@@ -967,10 +967,9 @@ const Home = () => {
                       80%
                     </div>
                   </div>{" "}
-                  Python
                   <br />
                   <img
-                    src="https://img.icons8.com/color/48/000000/javascript.png"
+                    src="https://img.icons8.com/color/60/000000/javascript.png"
                     title="JavaScript"
                   />{" "}
                   <div className="progress mt-2">
@@ -985,7 +984,6 @@ const Home = () => {
                       80%
                     </div>
                   </div>{" "}
-                  JavaScript
                   <br />
                 </h6>
               </div>
@@ -993,7 +991,7 @@ const Home = () => {
                 <div className="row"></div>
                 <h6 style={{ lineHeight: "2em" }}>
                   <img
-                    src="https://img.icons8.com/color/48/000000/html-5.png"
+                    src="https://img.icons8.com/color/60/000000/html-5.png"
                     title="HTML"
                   />
                   <div className="progress mt-2">
@@ -1008,10 +1006,9 @@ const Home = () => {
                       90%
                     </div>
                   </div>{" "}
-                  HTML5
                   <br />
                   <img
-                    src="https://img.icons8.com/color/48/000000/css3.png"
+                    src="https://img.icons8.com/color/60/000000/css3.png"
                     title="CSS"
                   />{" "}
                   <div className="progress mt-2">
@@ -1026,13 +1023,8 @@ const Home = () => {
                       75%
                     </div>
                   </div>{" "}
-                  CSS3
                   <br />
-                  <img
-                    alt="svgImg"
-                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGc+PHBhdGggZD0iTTYxLjY0NzY3LDY4LjUyMDVsLTE3LjU4MzQyLDkuNzI4NzVjLTAuNjU5MzMsMC4zNjE5MiAtMS4wNjQyNSwxLjAzNTU4IC0xLjA2NDI1LDEuNzYzdjE5LjQ2ODI1YzAsMC43Mjc0MiAwLjQwNDkyLDEuMzk3NSAxLjA2NDI1LDEuNzYzbDE3LjU4Nyw5LjczNTkyYzAuNjU1NzUsMC4zNjE5MiAxLjQ2OTE3LDAuMzYxOTIgMi4xMjQ5MiwwbDE3LjU4MzQyLC05LjczNTkyYzAuNjUyMTcsLTAuMzY1NSAxLjA1NzA4LC0xLjAzNTU4IDEuMDU3MDgsLTEuNzYzdi0xOS40NjgyNWMwLC0wLjcyNzQyIC0wLjQwNDkyLC0xLjM5NzUgLTEuMDY0MjUsLTEuNzYzbC0xNy41Nzk4MywtOS43Mjg3NWMtMC4zMjk2NywtMC4xODI3NSAtMC42OTg3NSwtMC4yNzIzMyAtMS4wNjQyNSwtMC4yNzIzM2MtMC4zNjkwOCwwIC0wLjczNDU4LDAuMDg5NTggLTEuMDY0MjUsMC4yNzIzM00xNTIuMTE2MDgsODYuMDQ2NThsLTIuOTMxMTcsMS42MTk2N2MtMC4xMTEwOCwwLjA2MDkyIC0wLjE3NTU4LDAuMTcyIC0wLjE3NTU4LDAuMjkzODN2My4yNDY1YzAsMC4xMjE4MyAwLjA2ODA4LDAuMjMyOTIgMC4xNzU1OCwwLjI5MzgzbDIuOTMxMTcsMS42MjMyNWMwLjExMTA4LDAuMDYwOTIgMC4yNDM2NywwLjA2MDkyIDAuMzU0NzUsMGwyLjkzMTE3LC0xLjYyMzI1YzAuMTA3NSwtMC4wNjA5MiAwLjE3NTU4LC0wLjE3MiAwLjE3NTU4LC0wLjI5Mzgzdi0zLjI0NjVjMCwtMC4xMjE4MyAtMC4wNjgwOCwtMC4yMzI5MiAtMC4xNzkxNywtMC4yOTM4M2wtMi45MzExNywtMS42MTk2N2MtMC4wNTM3NSwtMC4wMzIyNSAtMC4xMTQ2NywtMC4wNDY1OCAtMC4xNzU1OCwtMC4wNDY1OGMtMC4wNjA5MiwwIC0wLjEyMTgzLDAuMDE0MzMgLTAuMTc1NTgsMC4wNDY1OCIgZmlsbD0iIzM4OGUzYyI+PC9wYXRoPjxwYXRoIGQ9Ik0xMjguMTA3NzUsNDcuODg3NjdsLTguNTYwNTgsLTQuNzc2NThjLTAuMjY4NzUsLTAuMTUwNSAtMC41OTg0MiwtMC4xNDY5MiAtMC44NjM1OCwwLjAxMDc1Yy0wLjI2NTE3LDAuMTU3NjcgLTAuNDMsMC40NDA3NSAtMC40MywwLjc0ODkybC0wLjAwMzU4LDI4Ljg1M2wtNy44OTQwOCwtNC4zNjgwOGMtMC4zMjk2NywtMC4xODI3NSAtMC42OTg3NSwtMC4yNzIzMyAtMS4wNjQyNSwtMC4yNzIzM2MtMC4zNjU1LDAgLTAuNzM0NTgsMC4wODk1OCAtMS4wNjQyNSwwLjI3MjMzaDAuMDAzNThsLTE3LjU4MzQyLDkuNzI4NzVjLTAuNjU5MzMsMC4zNjE5MiAtMS4wNjQyNSwxLjAzNTU4IC0xLjA2NDI1LDEuNzU5NDJ2MTkuNDY4MjVjMCwwLjcyNzQyIDAuNDA0OTIsMS4zOTc1IDEuMDY0MjUsMS43NjNsMTcuNTg3LDkuNzM1OTJjMC42NTU3NSwwLjM2MTkyIDEuNDY5MTcsMC4zNjE5MiAyLjEyNDkyLDBsMTcuNTgzNDIsLTkuNzM1OTJjMC42NTIxNywtMC4zNjE5MiAxLjA1NzA4LC0xLjAzNTU4IDEuMDU3MDgsLTEuNzYzdi00OS45MDUwOGMwLC0wLjYzMDY3IC0wLjM0NCwtMS4yMTExNyAtMC44OTIyNSwtMS41MTkzM3pNMTE3Ljc2OTgzLDk0LjgwNzgzbC03Ljk5MDgzLDQuNDI1NDJjLTAuMjk3NDIsMC4xNjQ4MyAtMC42NjY1LDAuMTY0ODMgLTAuOTYzOTIsMGwtNy45OTQ0MiwtNC40MjU0MmMtMC4zMDQ1OCwtMC4xNjQ4MyAtMC40ODczMywtMC40NzMgLTAuNDg3MzMsLTAuODAyNjd2LTguODUwODNjMCwtMC4zMjk2NyAwLjE4Mjc1LC0wLjYzNDI1IDAuNDgzNzUsLTAuODAyNjdsNy45OTQ0MiwtNC40MjE4M2gtMC4wMDM1OGMwLjE1MDUsLTAuMDgyNDIgMC4zMTUzMywtMC4xMjE4MyAwLjQ4Mzc1LC0wLjEyMTgzYzAuMTY4NDIsMCAwLjMzMzI1LDAuMDQzIDAuNDgzNzUsMC4xMjE4M2w3Ljk5MDgzLDQuNDIxODNjMC4zMDEsMC4xNjg0MiAwLjQ4Mzc1LDAuNDc2NTggMC40ODM3NSwwLjgwNjI1djguODUwODNjMCwwLjMyNjA4IC0wLjE4Mjc1LDAuNjM0MjUgLTAuNDgwMTcsMC43OTkwOHoiIGZpbGw9IiNmZmZmZmYiPjwvcGF0aD48cGF0aCBkPSJNNjEuNjQ3NjcsNjguNTIwNWwtMTguNjQ3NjcsMzAuOTZjMCwwLjcyNzQyIDAuNDA0OTIsMS4zOTc1IDEuMDY0MjUsMS43NjNsMTcuNTg3LDkuNzM1OTJjMC42NTU3NSwwLjM2MTkyIDEuNDY5MTcsMC4zNjE5MiAyLjEyNDkyLDBsMTguNjQwNSwtMzAuOTY3MTdjMCwtMC43Mjc0MiAtMC40MDQ5MiwtMS4zOTc1IC0xLjA2NDI1LC0xLjc2M2wtMTcuNTc5ODMsLTkuNzI4NzVjLTAuMzI5NjcsLTAuMTgyNzUgLTAuNjk4NzUsLTAuMjcyMzMgLTEuMDY0MjUsLTAuMjcyMzNjLTAuMzY5MDgsMCAtMC43MzQ1OCwwLjA4OTU4IC0xLjA2NDI1LDAuMjcyMzMiIGZpbGw9IiMyZTdkMzIiPjwvcGF0aD48cGF0aCBkPSJNNjEuNjQ3NjcsNjguNTIwNWwtMTcuNTgzNDIsOS43Mjg3NWMtMC42NTkzMywwLjM2MTkyIC0xLjA2NDI1LDEuMDM1NTggLTEuMDY0MjUsMS43NjNsMTguNjQ3NjcsMzAuOTY3MTdjMC42NTU3NSwwLjM2MTkyIDEuNDY5MTcsMC4zNjE5MiAyLjEyNDkyLDBsMTcuNTgzNDIsLTkuNzM1OTJjMC42NTU3NSwtMC4zNjU1IDEuMDYwNjcsLTEuMDM1NTggMS4wNjA2NywtMS43NjNsLTE4LjY0NDA4LC0zMC45NmMtMC4zMjk2NywtMC4xODI3NSAtMC42OTg3NSwtMC4yNzIzMyAtMS4wNjQyNSwtMC4yNzIzM2MtMC4zNjkwOCwwIC0wLjczNDU4LDAuMDg5NTggLTEuMDY0MjUsMC4yNzIzMyIgZmlsbD0iIzRjYWY1MCI+PC9wYXRoPjxwYXRoIGQ9Ik0xNzAuOTM1NzUsNzguMDg0NDJsLTE3LjU3OTgzLC05LjcyODc1Yy0wLjMyOTY3LC0wLjE4Mjc1IC0wLjY5ODc1LC0wLjI3MjMzIC0xLjA2NDI1LC0wLjI3MjMzYy0wLjM2NTUsMCAtMC43MzQ1OCwwLjA4OTU4IC0xLjA2NDI1LDAuMjcyMzNoMC4wMDM1OGwtMTcuNTgzNDIsOS43Mjg3NWMtMC42NTU3NSwwLjM2MTkyIC0xLjA2NDI1LDEuMDQ5OTIgLTEuMDY0MjUsMS44MDI0MnYxOS4zODk0MmMwLDAuNzQ4OTIgMC40MDg1LDEuNDQwNSAxLjA2NDI1LDEuODAyNDJsMTcuNTg3LDkuNzM1OTJjMC42NTkzMywwLjM2NTUgMS40NjU1OCwwLjM2NTUgMi4xMjQ5MiwwbDguMTA5MDgsLTQuNDg5OTJjMC43NDE3NSwtMC40MTIwOCAwLjczODE3LC0xLjQ3NjMzIC0wLjAwNzE3LC0xLjg4NDgzbC0xNy42NDQzMywtOS42Mjg0MmMtMC4yOTc0MiwtMC4xNjg0MiAtMC40ODM3NSwtMC40ODAxNyAtMC40ODM3NSwtMC44MTd2LTguODM2NWMwLC0wLjMyOTY3IDAuMTc5MTcsLTAuNjM0MjUgMC40NjU4MywtMC43OTE5Mmw4LjAwODc1LC00LjQyOWgtMC4wMDM1OGMwLjE1MDUsLTAuMDgyNDIgMC4zMTUzMywtMC4xMjE4MyAwLjQ4Mzc1LC0wLjEyMTgzYzAuMTY4NDIsMCAwLjMzMzI1LDAuMDQzIDAuNDgzNzUsMC4xMjE4M2w4LjAwODc1LDQuNDMyNThjMC4yODY2NywwLjE1NzY3IDAuNDY1ODMsMC40NjIyNSAwLjQ2NTgzLDAuNzkxOTJ2Ny4yMDk2N2MwLDAuMzA4MTcgMC4xNjQ4MywwLjU5NDgzIDAuNDMzNTgsMC43NDg5MmMwLjI2ODc1LDAuMTUwNSAwLjU5ODQyLDAuMTUwNSAwLjg2NzE3LC0wLjAwMzU4bDguNTkyODMsLTQuOTkxNThjMC41MzAzMywtMC4zMDgxNyAwLjg2LC0wLjg3NzkyIDAuODYsLTEuNDk0MjV2LTYuNzM2NjdjMCwtMC43NTYwOCAtMC40MDg1LC0xLjQ0NzY3IC0xLjA2NDI1LC0xLjgwOTU4ek0zOC4zNTI0Miw3OC4wODQ0MmwtMTcuNTc5ODMsLTkuNzI4NzVjLTAuMzI5NjcsLTAuMTgyNzUgLTAuNjk4NzUsLTAuMjcyMzMgLTEuMDY0MjUsLTAuMjcyMzNjLTAuMzY1NSwwIC0wLjczNDU4LDAuMDg5NTggLTEuMDY0MjUsMC4yNzIzM2gwLjAwMzU4bC0xNy41ODM0Miw5LjcyODc1Yy0wLjY1NTc1LDAuMzYxOTIgLTEuMDY0MjUsMS4wNDk5MiAtMS4wNjQyNSwxLjgwMjQydjI2Ljc0OTU4YzAsMC4zMDgxNyAwLjE2NDgzLDAuNTk0ODMgMC40MzM1OCwwLjc0ODkyYzAuMjY4NzUsMC4xNTA1IDAuNTk4NDIsMC4xNTA1IDAuODY3MTcsLTAuMDAzNThsOC41OTI4MywtNC45OTE1OGMwLjUzMDMzLC0wLjMwODE3IDAuODU2NDIsLTAuODc3OTIgMC44NTY0MiwtMS40OTQyNXYtMTUuNzQxNThjMCwtMC4zMjk2NyAwLjE3OTE3LC0wLjYzNDI1IDAuNDY1ODMsLTAuNzkxOTJsOC4wMDg3NSwtNC40Mjl2MGMwLjE1MDUsLTAuMDgyNDIgMC4zMTUzMywtMC4xMjE4MyAwLjQ4Mzc1LC0wLjEyMTgzYzAuMTY4NDIsMCAwLjMzMzI1LDAuMDQzIDAuNDgzNzUsMC4xMjE4M2w4LjAwODc1LDQuNDMyNThjMC4yODY2NywwLjE1NzY3IDAuNDY1ODMsMC40NjIyNSAwLjQ2NTgzLDAuNzkxOTJ2MTUuNzQxNThjMCwwLjYxNjMzIDAuMzI2MDgsMS4xODYwOCAwLjg2LDEuNDk0MjVsOC41OTI4Myw0Ljk5MTU4YzAuMjY4NzUsMC4xNTQwOCAwLjU5ODQyLDAuMTU0MDggMC44NjcxNywwLjAwMzU4YzAuMjY1MTcsLTAuMTU3NjcgMC40MywtMC40NDQzMyAwLjQzLC0wLjc1MjV2LTI2Ljc0NmMwLC0wLjc1MjUgLTAuNDA4NSwtMS40NDQwOCAtMS4wNjQyNSwtMS44MDZ6IiBmaWxsPSIjZmZmZmZmIj48L3BhdGg+PC9nPjwvZz48L3N2Zz4="
-                    title="NodeJS"
-                  />{" "}
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAAEqElEQVRoge2Ye4hUdRTHP+feO7vr7rruI1jFUCuSyKDQ0C0NxnwVkVFGlBQVGBEVPVTUsNjSxIgoqSB7IJhYGUQUFILuWiSKr6Iiy9AlFRMfu1O7s7M7M3dOf9yZ4Xbn7t1d10fG7/PXnfM739/vfJkf554ZMBgMBoPBYDAYDAaD4eJAVTep6kpVHX6hazkvqGqrehxX1YcvdD3nHJ9hVVV3KHtZZ6uo88iQar4YDQ8JY/j/jjFcQFXHqWrdmWw6/c3pU+PvxS8906JUtU5Vx50LbYlhVb1EVdcAvwOHVbVZVSsGctjcjXMbZ2249Zuq0TXfYTmHJ740+bN4c3xA2vzZZar6FHAIOKiq61V11NnUik9QCTwJPAfUBPKOAiuA90UkF9xk0trbK2srM2vLh5XPt2yxABTlxG8nSKfSadux3973/K5nI4oV4D5gFTA2sNwF9AINxaJFJKC9G1gNXB7QJoG3gJdFpBNAVNUC5gGvhhwWZC+wSES2FQIz19+yIlZRtsSOWbFgcjqV5vivx0HBcqTDLi97Yu/SHRsDZpuA14Ab+zm7SMHwILTHgBeBD0RVdwBNIUmdQAVQYgRYLSLL5nx82+lYeaw+6qT2I+10newqfrbL7a3fL989M1/wamBJiCwD9AChs7OISIQ2C6T60O60KDWbAd4FrgCuAT4NETYB5DK5SLMAtaNqsRy7+NmyLX8zmxIi2QJMxLttr+AZD+NMtE3BpvUHcJWIPCoiJ0XkgIjcA8wIOzHZnkRz2kc9HpZjUTt6RPE5Vh77MyJ9hojMEpGfRaRDRJYCV+fr6o+C9iefdkJQ6wREbSJyKLiTiLSolhrLuTm6E0mq6qsjK6muryZ5KolYEpknIi0hsTZVbaOf/iIiLTRj3VAz7RMVLrPc3DwRORTQ/jDkwaM7kSKTSkcnCTSMbcCKnds5J07cUrgTZZIr4u/YCWApMCX4DQ+adDJD+5EOGq9s9L3kSnEqHCqGD6Pn71SfOapqi0jYz79+68xrs1PeuGmi5eqYnQu3t+aX1gDbReTkgDaKws3mcDNZ3EyWZEeSqvqqyPyqukrS3emyiJQtqrpQRPblTYzCe50M5JW1RVUXi8ge4MdCUEQ+9ycN6Y5lunuLz4mjCdQtmUn+hVhCdX3lGF8oG0iJA7vzU9Iq4ADwSKDOTIR2l6p+pKrBAaRI0PCeiHpL1mzHfkfEcgHcrEvi2F8Rcsim3e5sNveCL/QM0BpIs4AHgGVAsBsexJuqCtptgXUB7gX2q+rrqtoQWC8a/gWYLSKLI+ptAh4HThcCe5fvesyp0ZF2zP4a0M5TnaENLOfm3FRXz4ae/Z0jWh7avK5Ynff6uRmYhe8ahtCO13QmiMgXPu10YC6wP5BfBjyNN1PP9i+Iqs4HNolI8IqEoqr1wFQR+dIfn7xq2vhMtneTU+Zc2zjea2A5Vc0k099avbm7Ni/Y3N7PvhZwP97AMDIfzgDrgOWFptOH1gEWAM1AYz7cizdHrxSRRNHwQEwOhutWXn9HbWPth3bMPo3Yc7Y++NWBwejzf8UuAkbjDf1t50NrMBgMBoPBYDAYDAaDwWAwGP4j/AOmbutheeXRuQAAAABJRU5ErkJggg==" />{" "}
                   <div className="progress mt-2">
                     <div
                       className="progress-bar"
@@ -1045,7 +1037,6 @@ const Home = () => {
                       90%
                     </div>
                   </div>{" "}
-                  NodeJS
                   <br />
                 </h6>
               </div>
@@ -1057,7 +1048,7 @@ const Home = () => {
                 <div className="row"></div>
                 <h6 style={{ lineHeight: "2em" }}>
                   <img
-                    src="https://img.icons8.com/color/48/000000/kotlin.png"
+                    src="https://img.icons8.com/color/60/000000/kotlin.png"
                     title="Kotlin"
                   />
                   <div className="progress mt-2">
@@ -1072,10 +1063,9 @@ const Home = () => {
                       50%
                     </div>
                   </div>{" "}
-                  Kotlin
                   <br />
                   <img
-                    src="https://img.icons8.com/nolan/48/mysql.png"
+                    src="https://img.icons8.com/nolan/60/mysql.png"
                     title="MySql"
                   />
                   <div className="progress mt-2">
@@ -1090,14 +1080,13 @@ const Home = () => {
                       70%
                     </div>
                   </div>{" "}
-                  MySql
                 </h6>
               </div>
               <div className="col-6 text-left">
                 <div className="row"></div>
                 <h6 style={{ lineHeight: "2em" }}>
                   <img
-                    src="https://img.icons8.com/color/48/000000/react-native.png"
+                    src="https://img.icons8.com/color/60/000000/react-native.png"
                     title="ReactJS"
                   />{" "}
                   <div className="progress mt-2">
@@ -1112,10 +1101,9 @@ const Home = () => {
                       80%
                     </div>
                   </div>{" "}
-                  ReactJS
                   <br />
                   <img
-                    src="https://img.icons8.com/color/48/000000/mongodb.png"
+                    src="https://img.icons8.com/color/60/000000/mongodb.png"
                     title="MongoDB"
                   />{" "}
                   <div className="progress mt-2">
@@ -1130,7 +1118,6 @@ const Home = () => {
                       90%
                     </div>
                   </div>{" "}
-                  MongoDB
                 </h6>
               </div>
             </div>
