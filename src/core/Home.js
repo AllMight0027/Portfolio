@@ -1077,6 +1077,23 @@ const Home = () => {
                       70%
                     </div>
                   </div>{" "}
+                  <br />
+                  <img
+                    src="https://img.icons8.com/color/60/000000/sass.png"
+                    title="SASS"
+                  />
+                  <div className="progress mt-2">
+                    <div
+                      className="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style={{ width: "50%" }}
+                    >
+                      50%
+                    </div>
+                  </div>{" "}
                 </h6>
               </div>
               <div className="col-6 text-left">
@@ -1102,6 +1119,23 @@ const Home = () => {
                   <img
                     src="https://img.icons8.com/color/60/000000/mongodb.png"
                     title="MongoDB"
+                  />{" "}
+                  <div className="progress mt-2">
+                    <div
+                      className="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="90"
+                      style={{ width: "90%" }}
+                    >
+                      90%
+                    </div>
+                  </div>{" "}
+                  <br />
+                  <img
+                    src="data:image/png;base64,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"
+                    title="AWS"
                   />{" "}
                   <div className="progress mt-2">
                     <div
