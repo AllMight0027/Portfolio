@@ -55,9 +55,6 @@
   .textEffect2 {
     font-size: 3rem;
   }
-  canvas {
-    display: none;
-  }
 }
 
 @keyframes App-logo-spin {

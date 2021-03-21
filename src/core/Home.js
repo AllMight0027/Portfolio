@@ -4,7 +4,6 @@ import Particles from "react-particles-js";
 import "../App.css";
 import Type from "../components/Type";
 import Type2 from "../components/Type2";
-import { ReactComponent as node } from "../components/nodejs.svg";
 
 const Home = () => {
   const [filter, setFilter] = useState("");
@@ -20,17 +19,18 @@ const Home = () => {
 
   return (
     <Base>
-      <div className="container-fluid" style={{ height: "750px" }} id="type">
+      <div className="container-fluid" style={{ height: "100vh" }} id="type">
         <Type />
         <br />
         <Type2 stop={true} />
         <Particles
+          height="100vh"
           params={{
             polygon: {
               number: {
                 value: 10,
                 density: {
-                  // enable: true,
+                  enable: true,
                   value_area: 10,
                 },
               },
@@ -48,12 +48,11 @@ const Home = () => {
             <div className=" offset-sm-1 col-sm-10 col-sm-4 text-center">
               <h6 style={{ lineHeight: "2em" }}>
                 I am a <b>Full Stack Developer</b> with keen interest in{" "}
-                <b>MERN Stack</b>. I am looking for a challenging role to
-                utilize my skills and capabilities through sincere dedication
-                and <i>smart</i> work for symbiont development of both myself,
-                and my team. Presently I am serving as the{" "}
-                <b>Web And App Development Head </b> for IEEE SRMIST Student
-                Chapter.
+                <b>MERN Stack</b>. I am constantly looking for a challenging
+                taaks to utilize my skills and capabilities through sincere
+                dedication and <i>smart</i> work for symbiont development of
+                both myself, and my team. Presently I am employed at{" "}
+                <b>Juspay Technologies </b> as <b>ASDE</b>.
               </h6>
             </div>
           </div>
@@ -91,37 +90,6 @@ const Home = () => {
                   data-ride="carousel"
                   data-interval="30000"
                 >
-                  <ol className="carousel-indicators">
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="0"
-                      className="active"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="1"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="2"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="3"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="4"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="5"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="6"
-                    ></li>
-                  </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <img
@@ -130,73 +98,7 @@ const Home = () => {
                         alt="First slide"
                       />
                     </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (238).png")}
-                        alt="Second slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (243).png")}
-                        alt="Third slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (244).png")}
-                        alt="Fourth slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (245).png")}
-                        alt="Fifth slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (246).png")}
-                        alt="Sixth slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (247).png")}
-                        alt="Seventh slide"
-                      />
-                    </div>
                   </div>
-                  <a
-                    className="carousel-control-prev"
-                    href="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span
-                      className="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Previous</span>
-                  </a>
-                  <a
-                    className="carousel-control-next"
-                    href="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span
-                      className="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Next</span>
-                  </a>
                 </div>
 
                 <div className="card-body">
@@ -261,29 +163,6 @@ const Home = () => {
                   data-ride="carousel"
                   data-interval="30000"
                 >
-                  <ol className="carousel-indicators">
-                    <li
-                      data-target="#carouselExampleIndicators1"
-                      data-slide-to="0"
-                      className="active"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators1"
-                      data-slide-to="1"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators1"
-                      data-slide-to="2"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators1"
-                      data-slide-to="3"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators1"
-                      data-slide-to="4"
-                    ></li>
-                  </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <img
@@ -292,59 +171,7 @@ const Home = () => {
                         alt="First slide"
                       />
                     </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (249).png")}
-                        alt="Second slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (250).png")}
-                        alt="Third slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (251).png")}
-                        alt="Fourth slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (252).png")}
-                        alt="Fifth slide"
-                      />
-                    </div>
                   </div>
-                  <a
-                    className="carousel-control-prev"
-                    href="#carouselExampleIndicators1"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span
-                      className="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Previous</span>
-                  </a>
-                  <a
-                    className="carousel-control-next"
-                    href="#carouselExampleIndicators1"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span
-                      className="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Next</span>
-                  </a>
                 </div>
 
                 <div className="card-body">
@@ -409,17 +236,6 @@ const Home = () => {
                   data-ride="carousel"
                   data-interval="30000"
                 >
-                  <ol className="carousel-indicators">
-                    <li
-                      data-target="#carouselExampleIndicators3"
-                      data-slide-to="0"
-                      className="active"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators3"
-                      data-slide-to="1"
-                    ></li>
-                  </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <img
@@ -428,38 +244,7 @@ const Home = () => {
                         alt="First slide"
                       />
                     </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (259).png")}
-                        alt="Second slide"
-                      />
-                    </div>
                   </div>
-                  <a
-                    className="carousel-control-prev"
-                    href="#carouselExampleIndicators3"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span
-                      className="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Previous</span>
-                  </a>
-                  <a
-                    className="carousel-control-next"
-                    href="#carouselExampleIndicators3"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span
-                      className="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Next</span>
-                  </a>
                 </div>
 
                 <div className="card-body">
@@ -474,8 +259,8 @@ const Home = () => {
                       src="https://img.icons8.com/color/40/000000/html-5.png"
                       className="ml-2"
                     />{" "}
-                    <img src="https://img.icons8.com/color/40/000000/css3.png" />{" "}
                     <img src="https://img.icons8.com/color/40/000000/javascript.png" />{" "}
+                    <img src="https://img.icons8.com/color/40/000000/sass.png" />
                   </div>
                   <div className="row">
                     <div className="col-6 text-left">
@@ -515,29 +300,6 @@ const Home = () => {
                   data-ride="carousel"
                   data-interval="30000"
                 >
-                  <ol className="carousel-indicators">
-                    <li
-                      data-target="#carouselExampleIndicators2"
-                      data-slide-to="0"
-                      className="active"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators2"
-                      data-slide-to="1"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators2"
-                      data-slide-to="2"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators2"
-                      data-slide-to="3"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators2"
-                      data-slide-to="4"
-                    ></li>
-                  </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <img
@@ -546,59 +308,7 @@ const Home = () => {
                         alt="First slide"
                       />
                     </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (254).png")}
-                        alt="Second slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (255).png")}
-                        alt="Third slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (256).png")}
-                        alt="Fourth slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (257).png")}
-                        alt="Fifth slide"
-                      />
-                    </div>
                   </div>
-                  <a
-                    className="carousel-control-prev"
-                    href="#carouselExampleIndicators2"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span
-                      className="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Previous</span>
-                  </a>
-                  <a
-                    className="carousel-control-next"
-                    href="#carouselExampleIndicators2"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span
-                      className="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Next</span>
-                  </a>
                 </div>
 
                 <div className="card-body">
@@ -663,17 +373,6 @@ const Home = () => {
                   data-ride="carousel"
                   data-interval="30000"
                 >
-                  <ol className="carousel-indicators">
-                    <li
-                      data-target="#carouselExampleIndicators5"
-                      data-slide-to="0"
-                      className="active"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators5"
-                      data-slide-to="1"
-                    ></li>
-                  </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <img
@@ -682,38 +381,7 @@ const Home = () => {
                         alt="First slide"
                       />
                     </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (260).png")}
-                        alt="Second slide"
-                      />
-                    </div>
                   </div>
-                  <a
-                    className="carousel-control-prev"
-                    href="#carouselExampleIndicators5"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span
-                      className="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Previous</span>
-                  </a>
-                  <a
-                    className="carousel-control-next"
-                    href="#carouselExampleIndicators5"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span
-                      className="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Next</span>
-                  </a>
                 </div>
 
                 <div className="card-body">
@@ -773,33 +441,6 @@ const Home = () => {
                   data-ride="carousel"
                   data-interval="30000"
                 >
-                  <ol className="carousel-indicators">
-                    <li
-                      data-target="#carouselExampleIndicators6"
-                      data-slide-to="0"
-                      className="active"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators6"
-                      data-slide-to="1"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators6"
-                      data-slide-to="2"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators6"
-                      data-slide-to="3"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators6"
-                      data-slide-to="4"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators6"
-                      data-slide-to="5"
-                    ></li>
-                  </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <img
@@ -808,66 +449,7 @@ const Home = () => {
                         alt="Zero slide"
                       />
                     </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (261).png")}
-                        alt="First slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (262).png")}
-                        alt="Second slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (263).png")}
-                        alt="Third slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (264).png")}
-                        alt="Fourth slide"
-                      />
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className="d-block w-100"
-                        src={require("./Screenshot (265).png")}
-                        alt="Fifth slide"
-                      />
-                    </div>
                   </div>
-                  <a
-                    className="carousel-control-prev"
-                    href="#carouselExampleIndicators6"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <span
-                      className="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Previous</span>
-                  </a>
-                  <a
-                    className="carousel-control-next"
-                    href="#carouselExampleIndicators6"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <span
-                      className="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="sr-only">Next</span>
-                  </a>
                 </div>
 
                 <div className="card-body">
@@ -1168,16 +750,20 @@ const Home = () => {
               <div className="col-12 text-left">
                 <h6 style={{ lineHeight: "1.5em" }}>
                   <br />
-                  Done summer internship under Marketing program from 20th May
-                  2018 to 30th June 2018 in Den Networks Limited
+                  Done internship as SDE from 1st October to 31st December 2020
+                  in Clevup Technologies
+                  <br />
+                  <br />
+                  Done summer internship under Networking program from 1st June
+                  to 30th June 2019 in Den Networks Limited
                   <br />
                   <br />
                   Done summer internship as QA Engineer from 1st December 2018
                   to 2nd January 2019 in Guavus Network System Pvt. Ltd.
                   <br />
                   <br />
-                  Done summer internship under Networking program from 1st June
-                  to 30th June 2019 in Den Networks Limited
+                  Done summer internship under Marketing program from 20th May
+                  2018 to 30th June 2018 in Den Networks Limited
                 </h6>
               </div>
             </div>
@@ -1244,11 +830,11 @@ const Home = () => {
               SRM Institute of Science and Technology, Chennai, T.N. 4th Year,
               B.Tech. Software Engineering, 2021 | Percentage: 83.95%
               <br />
-              <br /> K.V. No.2 AFS, Kanpur, U.P. CBSE 12th Class, 2015 |
+              <br /> K.V. No.2 AFS, Kanpur, U.P. CBSE 12th Class, 2017 |
               Percentage: 79.6%
               <br />
               <br />
-              K.V. No.2 AFS, Kanpur, U.P. CBSE 10th Class, 2017 | CGPA: 10
+              K.V. No.2 AFS, Kanpur, U.P. CBSE 10th Class, 2015 | CGPA: 10
             </h6>
           </div>
         </div>
