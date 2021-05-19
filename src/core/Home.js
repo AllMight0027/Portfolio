@@ -24,7 +24,7 @@ const Home = () => {
         <br />
         <Type2 stop={true} />
         <Particles
-          height="100vh"
+          height="98vh"
           params={{
             polygon: {
               number: {
