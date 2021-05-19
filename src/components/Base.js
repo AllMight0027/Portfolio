@@ -191,83 +191,16 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
         <div className="container-fluid text-white">
           <div className="row pb-2">
             <div className="col-12 text-center ">
-              <h5>Leave Your Details and I'll Contact You</h5>
-              <form
-                style={{ width: "290px", display: "inline-block" }}
-                className="text-left"
-              >
-                <div className="form-group">
-                  <label>Name</label>
-
-                  <input
-                    onChange={handleChange("name")}
-                    name="name"
-                    className="form-control"
-                    placeholder="Name"
-                    value={name}
-                  />
-                </div>
-                <div className="form-group">
-                  <label> Phone </label>
-
-                  <input
-                    onChange={handleChange("phone")}
-                    name="phone"
-                    className="form-control"
-                    placeholder="Phone Number"
-                    type="number"
-                    value={phone}
-                  />
-                </div>
-                <div className="form-group">
-                  <label> Message </label>
-
-                  <textarea
-                    onChange={handleChange("message")}
-                    name="position"
-                    className="form-control"
-                    placeholder="Message"
-                    value={message}
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="btn text-white mb-2"
-                  style={{ background: "black", paddingTop: "12px" }}
-                  onClick={onSubmit}
-                >
-                  Submit
-                </button>
-                <small
-                  className="text-success pl-2"
-                  style={{ display: success ? "" : "none" }}
-                >
-                  Great! I'll reach to you soon.
-                </small>
-                <small
-                  className="text-danger pl-2"
-                  style={{ display: error ? "" : "none" }}
-                >
-                  {error}
-                </small>
-              </form>
               <div className="row">
-                <div className="col-12 text-center"> Quick Links</div>
+                <div className="col-12 text-center mb-4"> Connect With Me</div>
               </div>
               <div className="row">
                 <div className="col-12 text-center text-white pb-3">
                   {" "}
                   <a href="mailto:pratyakshsaxena88@gmail.com">
                     <img
-                      src="https://img.icons8.com/color/48/000000/email.png"
-                      className="mr-2"
-                    />
-                  </a>
-                  <a href="tel:+91-8009551506">
-                    <img
-                      src="https://img.icons8.com/fluent/45/000000/phone-disconnected.png"
-                      className="mr-2"
+                      src="https://img.icons8.com/ios/150/ffffff/mail.png"
+                      style={{ width: 48 }}
                     />
                   </a>
                   <a
@@ -276,8 +209,9 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                     rel="noopener noreferrer"
                   >
                     <img
-                      src="https://img.icons8.com/fluent/48/000000/github.png"
-                      className="mr-2"
+                      src="https://img.icons8.com/ios/150/ffffff/github.png"
+                      className="ml-3"
+                      style={{ width: 48 }}
                     />
                   </a>
                   <a
@@ -285,23 +219,12 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="https://img.icons8.com/office/44/000000/linkedin.png" />
+                    <img
+                      src="https://img.icons8.com/ios/150/ffffff/linkedin.png"
+                      className="ml-3"
+                      style={{ width: 48 }}
+                    />
                   </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 text-center text-muted">
-              <div className="row">
-                <div className="col-12 text-left text-white">
-                  {" "}
-                  {/* <h5> Address</h5>
-                  <br />
-                  D-391 <br />
-                  Defence Colony, Jajmau <br />
-                  Kanpur, Uttar Pradesh <br />
-                  India
-                  <br />
-                  208010*/}
                 </div>
               </div>
             </div>

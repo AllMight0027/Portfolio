@@ -944,6 +944,9 @@ const Home = () => {
               <div className="col-12 text-left">
                 <h6 style={{ lineHeight: "1.5em" }}>
                   <br />
+                  Done internship as SDE from 3rd January to 1st May 2021 in
+                  Juspay Technologies
+                  <br />
                   Done internship as SDE from 1st October to 31st December 2020
                   in Clevup Technologies
                   <br />
