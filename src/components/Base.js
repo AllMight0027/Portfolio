@@ -192,10 +192,13 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
           <div className="row pb-2">
             <div className="col-12 text-center ">
               <div className="row">
-                <div className="col-12 text-center mb-4"> Connect With Me</div>
+                <div className="col-12 text-center mb-4 mt-2">
+                  {" "}
+                  Connect With Me
+                </div>
               </div>
               <div className="row">
-                <div className="col-12 text-center text-white pb-3">
+                <div className="col-12 text-center text-white pb-4">
                   {" "}
                   <a href="mailto:pratyakshsaxena88@gmail.com">
                     <img
