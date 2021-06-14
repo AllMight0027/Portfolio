@@ -46,13 +46,14 @@ const Home = () => {
           <br />
           <div className="row mt-3 mb-3">
             <div className=" offset-sm-1 col-sm-10 col-sm-4 text-center">
-              <h6 style={{ lineHeight: "2em" }}>
+              <h6 style={{ lineHeight: "2em", fontSize: 16 }}>
                 I am a <b>Full Stack Developer</b> with keen interest in{" "}
                 <b>MERN Stack</b>. I am constantly looking for a challenging
                 taaks to utilize my skills and capabilities through sincere
                 dedication and <i>smart</i> work for symbiont development of
                 both myself, and my team. Presently I am employed at{" "}
-                <b>Juspay Technologies </b> as an <b>SDE Intern</b>.
+                <b>Advergame Technologies </b> as an <b>SDE</b> and also work as
+                a Consultant at <b>Clevup Technologies</b>.
               </h6>
             </div>
           </div>
@@ -104,14 +105,14 @@ const Home = () => {
                 <div className="card-body">
                   <h4 className="card-title mt-1">Lounge Luxurio</h4>
                   <p className="card-text ">
-                    This is a site for made for a young enthusiastic customer
-                    who wanted to bring his business online to showcase his work
-                    and grow his business.
+                    This is a site made for a young enthusiastic customer who
+                    wanted to bring his business online to showcase his work and
+                    grow his business.
                   </p>{" "}
                   <div className="row pb-2">
                     <img
                       src="https://img.icons8.com/color/40/000000/react-native.png"
-                      className="ml-1"
+                      className="ml-3"
                     />{" "}
                     <img src="https://img.icons8.com/color/40/000000/css3.png" />{" "}
                     <img
@@ -164,13 +165,14 @@ const Home = () => {
                 <div className="card-body">
                   <h4 className="card-title mt-1">Hacktrix</h4>
                   <p className="card-text ">
-                    This is a site made for IEEE SRM for their hackathon called
-                    Hacktrix which mangaged traffic of ambitious hackers who
-                    came here to get all the details of the event.
+                    This is a site made for IEEE SRM for their hackathon which
+                    mangaged the traffic of all the ambitious hackers who came
+                    here to get all the details of the event.
                   </p>{" "}
                   <div className="row pb-2">
                     <img
                       alt="svgImg"
+                      className="ml-3"
                       src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDAiIGhlaWdodD0iNDAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGc+PHBhdGggZD0iTTYxLjY0NzY3LDY4LjUyMDVsLTE3LjU4MzQyLDkuNzI4NzVjLTAuNjU5MzMsMC4zNjE5MiAtMS4wNjQyNSwxLjAzNTU4IC0xLjA2NDI1LDEuNzYzdjE5LjQ2ODI1YzAsMC43Mjc0MiAwLjQwNDkyLDEuMzk3NSAxLjA2NDI1LDEuNzYzbDE3LjU4Nyw5LjczNTkyYzAuNjU1NzUsMC4zNjE5MiAxLjQ2OTE3LDAuMzYxOTIgMi4xMjQ5MiwwbDE3LjU4MzQyLC05LjczNTkyYzAuNjUyMTcsLTAuMzY1NSAxLjA1NzA4LC0xLjAzNTU4IDEuMDU3MDgsLTEuNzYzdi0xOS40NjgyNWMwLC0wLjcyNzQyIC0wLjQwNDkyLC0xLjM5NzUgLTEuMDY0MjUsLTEuNzYzbC0xNy41Nzk4MywtOS43Mjg3NWMtMC4zMjk2NywtMC4xODI3NSAtMC42OTg3NSwtMC4yNzIzMyAtMS4wNjQyNSwtMC4yNzIzM2MtMC4zNjkwOCwwIC0wLjczNDU4LDAuMDg5NTggLTEuMDY0MjUsMC4yNzIzM00xNTIuMTE2MDgsODYuMDQ2NThsLTIuOTMxMTcsMS42MTk2N2MtMC4xMTEwOCwwLjA2MDkyIC0wLjE3NTU4LDAuMTcyIC0wLjE3NTU4LDAuMjkzODN2My4yNDY1YzAsMC4xMjE4MyAwLjA2ODA4LDAuMjMyOTIgMC4xNzU1OCwwLjI5MzgzbDIuOTMxMTcsMS42MjMyNWMwLjExMTA4LDAuMDYwOTIgMC4yNDM2NywwLjA2MDkyIDAuMzU0NzUsMGwyLjkzMTE3LC0xLjYyMzI1YzAuMTA3NSwtMC4wNjA5MiAwLjE3NTU4LC0wLjE3MiAwLjE3NTU4LC0wLjI5Mzgzdi0zLjI0NjVjMCwtMC4xMjE4MyAtMC4wNjgwOCwtMC4yMzI5MiAtMC4xNzkxNywtMC4yOTM4M2wtMi45MzExNywtMS42MTk2N2MtMC4wNTM3NSwtMC4wMzIyNSAtMC4xMTQ2NywtMC4wNDY1OCAtMC4xNzU1OCwtMC4wNDY1OGMtMC4wNjA5MiwwIC0wLjEyMTgzLDAuMDE0MzMgLTAuMTc1NTgsMC4wNDY1OCIgZmlsbD0iIzM4OGUzYyI+PC9wYXRoPjxwYXRoIGQ9Ik0xMjguMTA3NzUsNDcuODg3NjdsLTguNTYwNTgsLTQuNzc2NThjLTAuMjY4NzUsLTAuMTUwNSAtMC41OTg0MiwtMC4xNDY5MiAtMC44NjM1OCwwLjAxMDc1Yy0wLjI2NTE3LDAuMTU3NjcgLTAuNDMsMC40NDA3NSAtMC40MywwLjc0ODkybC0wLjAwMzU4LDI4Ljg1M2wtNy44OTQwOCwtNC4zNjgwOGMtMC4zMjk2NywtMC4xODI3NSAtMC42OTg3NSwtMC4yNzIzMyAtMS4wNjQyNSwtMC4yNzIzM2MtMC4zNjU1LDAgLTAuNzM0NTgsMC4wODk1OCAtMS4wNjQyNSwwLjI3MjMzaDAuMDAzNThsLTE3LjU4MzQyLDkuNzI4NzVjLTAuNjU5MzMsMC4zNjE5MiAtMS4wNjQyNSwxLjAzNTU4IC0xLjA2NDI1LDEuNzU5NDJ2MTkuNDY4MjVjMCwwLjcyNzQyIDAuNDA0OTIsMS4zOTc1IDEuMDY0MjUsMS43NjNsMTcuNTg3LDkuNzM1OTJjMC42NTU3NSwwLjM2MTkyIDEuNDY5MTcsMC4zNjE5MiAyLjEyNDkyLDBsMTcuNTgzNDIsLTkuNzM1OTJjMC42NTIxNywtMC4zNjE5MiAxLjA1NzA4LC0xLjAzNTU4IDEuMDU3MDgsLTEuNzYzdi00OS45MDUwOGMwLC0wLjYzMDY3IC0wLjM0NCwtMS4yMTExNyAtMC44OTIyNSwtMS41MTkzM3pNMTE3Ljc2OTgzLDk0LjgwNzgzbC03Ljk5MDgzLDQuNDI1NDJjLTAuMjk3NDIsMC4xNjQ4MyAtMC42NjY1LDAuMTY0ODMgLTAuOTYzOTIsMGwtNy45OTQ0MiwtNC40MjU0MmMtMC4zMDQ1OCwtMC4xNjQ4MyAtMC40ODczMywtMC40NzMgLTAuNDg3MzMsLTAuODAyNjd2LTguODUwODNjMCwtMC4zMjk2NyAwLjE4Mjc1LC0wLjYzNDI1IDAuNDgzNzUsLTAuODAyNjdsNy45OTQ0MiwtNC40MjE4M2gtMC4wMDM1OGMwLjE1MDUsLTAuMDgyNDIgMC4zMTUzMywtMC4xMjE4MyAwLjQ4Mzc1LC0wLjEyMTgzYzAuMTY4NDIsMCAwLjMzMzI1LDAuMDQzIDAuNDgzNzUsMC4xMjE4M2w3Ljk5MDgzLDQuNDIxODNjMC4zMDEsMC4xNjg0MiAwLjQ4Mzc1LDAuNDc2NTggMC40ODM3NSwwLjgwNjI1djguODUwODNjMCwwLjMyNjA4IC0wLjE4Mjc1LDAuNjM0MjUgLTAuNDgwMTcsMC43OTkwOHoiIGZpbGw9IiNmZmZmZmYiPjwvcGF0aD48cGF0aCBkPSJNNjEuNjQ3NjcsNjguNTIwNWwtMTguNjQ3NjcsMzAuOTZjMCwwLjcyNzQyIDAuNDA0OTIsMS4zOTc1IDEuMDY0MjUsMS43NjNsMTcuNTg3LDkuNzM1OTJjMC42NTU3NSwwLjM2MTkyIDEuNDY5MTcsMC4zNjE5MiAyLjEyNDkyLDBsMTguNjQwNSwtMzAuOTY3MTdjMCwtMC43Mjc0MiAtMC40MDQ5MiwtMS4zOTc1IC0xLjA2NDI1LC0xLjc2M2wtMTcuNTc5ODMsLTkuNzI4NzVjLTAuMzI5NjcsLTAuMTgyNzUgLTAuNjk4NzUsLTAuMjcyMzMgLTEuMDY0MjUsLTAuMjcyMzNjLTAuMzY5MDgsMCAtMC43MzQ1OCwwLjA4OTU4IC0xLjA2NDI1LDAuMjcyMzMiIGZpbGw9IiMyZTdkMzIiPjwvcGF0aD48cGF0aCBkPSJNNjEuNjQ3NjcsNjguNTIwNWwtMTcuNTgzNDIsOS43Mjg3NWMtMC42NTkzMywwLjM2MTkyIC0xLjA2NDI1LDEuMDM1NTggLTEuMDY0MjUsMS43NjNsMTguNjQ3NjcsMzAuOTY3MTdjMC42NTU3NSwwLjM2MTkyIDEuNDY5MTcsMC4zNjE5MiAyLjEyNDkyLDBsMTcuNTgzNDIsLTkuNzM1OTJjMC42NTU3NSwtMC4zNjU1IDEuMDYwNjcsLTEuMDM1NTggMS4wNjA2NywtMS43NjNsLTE4LjY0NDA4LC0zMC45NmMtMC4zMjk2NywtMC4xODI3NSAtMC42OTg3NSwtMC4yNzIzMyAtMS4wNjQyNSwtMC4yNzIzM2MtMC4zNjkwOCwwIC0wLjczNDU4LDAuMDg5NTggLTEuMDY0MjUsMC4yNzIzMyIgZmlsbD0iIzRjYWY1MCI+PC9wYXRoPjxwYXRoIGQ9Ik0xNzAuOTM1NzUsNzguMDg0NDJsLTE3LjU3OTgzLC05LjcyODc1Yy0wLjMyOTY3LC0wLjE4Mjc1IC0wLjY5ODc1LC0wLjI3MjMzIC0xLjA2NDI1LC0wLjI3MjMzYy0wLjM2NTUsMCAtMC43MzQ1OCwwLjA4OTU4IC0xLjA2NDI1LDAuMjcyMzNoMC4wMDM1OGwtMTcuNTgzNDIsOS43Mjg3NWMtMC42NTU3NSwwLjM2MTkyIC0xLjA2NDI1LDEuMDQ5OTIgLTEuMDY0MjUsMS44MDI0MnYxOS4zODk0MmMwLDAuNzQ4OTIgMC40MDg1LDEuNDQwNSAxLjA2NDI1LDEuODAyNDJsMTcuNTg3LDkuNzM1OTJjMC42NTkzMywwLjM2NTUgMS40NjU1OCwwLjM2NTUgMi4xMjQ5MiwwbDguMTA5MDgsLTQuNDg5OTJjMC43NDE3NSwtMC40MTIwOCAwLjczODE3LC0xLjQ3NjMzIC0wLjAwNzE3LC0xLjg4NDgzbC0xNy42NDQzMywtOS42Mjg0MmMtMC4yOTc0MiwtMC4xNjg0MiAtMC40ODM3NSwtMC40ODAxNyAtMC40ODM3NSwtMC44MTd2LTguODM2NWMwLC0wLjMyOTY3IDAuMTc5MTcsLTAuNjM0MjUgMC40NjU4MywtMC43OTE5Mmw4LjAwODc1LC00LjQyOWgtMC4wMDM1OGMwLjE1MDUsLTAuMDgyNDIgMC4zMTUzMywtMC4xMjE4MyAwLjQ4Mzc1LC0wLjEyMTgzYzAuMTY4NDIsMCAwLjMzMzI1LDAuMDQzIDAuNDgzNzUsMC4xMjE4M2w4LjAwODc1LDQuNDMyNThjMC4yODY2NywwLjE1NzY3IDAuNDY1ODMsMC40NjIyNSAwLjQ2NTgzLDAuNzkxOTJ2Ny4yMDk2N2MwLDAuMzA4MTcgMC4xNjQ4MywwLjU5NDgzIDAuNDMzNTgsMC43NDg5MmMwLjI2ODc1LDAuMTUwNSAwLjU5ODQyLDAuMTUwNSAwLjg2NzE3LC0wLjAwMzU4bDguNTkyODMsLTQuOTkxNThjMC41MzAzMywtMC4zMDgxNyAwLjg2LC0wLjg3NzkyIDAuODYsLTEuNDk0MjV2LTYuNzM2NjdjMCwtMC43NTYwOCAtMC40MDg1LC0xLjQ0NzY3IC0xLjA2NDI1LC0xLjgwOTU4ek0zOC4zNTI0Miw3OC4wODQ0MmwtMTcuNTc5ODMsLTkuNzI4NzVjLTAuMzI5NjcsLTAuMTgyNzUgLTAuNjk4NzUsLTAuMjcyMzMgLTEuMDY0MjUsLTAuMjcyMzNjLTAuMzY1NSwwIC0wLjczNDU4LDAuMDg5NTggLTEuMDY0MjUsMC4yNzIzM2gwLjAwMzU4bC0xNy41ODM0Miw5LjcyODc1Yy0wLjY1NTc1LDAuMzYxOTIgLTEuMDY0MjUsMS4wNDk5MiAtMS4wNjQyNSwxLjgwMjQydjI2Ljc0OTU4YzAsMC4zMDgxNyAwLjE2NDgzLDAuNTk0ODMgMC40MzM1OCwwLjc0ODkyYzAuMjY4NzUsMC4xNTA1IDAuNTk4NDIsMC4xNTA1IDAuODY3MTcsLTAuMDAzNThsOC41OTI4MywtNC45OTE1OGMwLjUzMDMzLC0wLjMwODE3IDAuODU2NDIsLTAuODc3OTIgMC44NTY0MiwtMS40OTQyNXYtMTUuNzQxNThjMCwtMC4zMjk2NyAwLjE3OTE3LC0wLjYzNDI1IDAuNDY1ODMsLTAuNzkxOTJsOC4wMDg3NSwtNC40Mjl2MGMwLjE1MDUsLTAuMDgyNDIgMC4zMTUzMywtMC4xMjE4MyAwLjQ4Mzc1LC0wLjEyMTgzYzAuMTY4NDIsMCAwLjMzMzI1LDAuMDQzIDAuNDgzNzUsMC4xMjE4M2w4LjAwODc1LDQuNDMyNThjMC4yODY2NywwLjE1NzY3IDAuNDY1ODMsMC40NjIyNSAwLjQ2NTgzLDAuNzkxOTJ2MTUuNzQxNThjMCwwLjYxNjMzIDAuMzI2MDgsMS4xODYwOCAwLjg2LDEuNDk0MjVsOC41OTI4Myw0Ljk5MTU4YzAuMjY4NzUsMC4xNTQwOCAwLjU5ODQyLDAuMTU0MDggMC44NjcxNywwLjAwMzU4YzAuMjY1MTcsLTAuMTU3NjcgMC40MywtMC40NDQzMyAwLjQzLC0wLjc1MjV2LTI2Ljc0NmMwLC0wLjc1MjUgLTAuNDA4NSwtMS40NDQwOCAtMS4wNjQyNSwtMS44MDZ6IiBmaWxsPSIjZmZmZmZmIj48L3BhdGg+PC9nPjwvZz48L3N2Zz4="
                     />
                     {"  "}
@@ -689,7 +691,7 @@ const Home = () => {
         </div>
 
         <br />
-        <div className="row mt-5" id="skills">
+        <div className="row pt-5" id="skills">
           <div className="col-12 text-center" style={{ marginBottom: "35px" }}>
             <h1>SKILLS</h1>
           </div>
@@ -699,10 +701,18 @@ const Home = () => {
             <div className="row">
               <div className="col-6 text-left">
                 <div className="row"></div>
-                <h6 style={{ lineHeight: "2em" }}>
+                <h6
+                  style={{
+                    lineHeight: "2em",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
                   <img
-                    src="https://img.icons8.com/color/60/000000/c-plus-plus-logo.png"
+                    src="https://img.icons8.com/color/100/000000/c-plus-plus-logo.png"
                     title="C++"
+                    style={{ width: 60 }}
                   />{" "}
                   <div className="progress mt-2">
                     <div
@@ -718,8 +728,9 @@ const Home = () => {
                   </div>{" "}
                   <br />
                   <img
-                    src="https://img.icons8.com/color/60/000000/python.png"
+                    src="https://img.icons8.com/color/100/000000/python.png"
                     title="Python"
+                    style={{ width: 60 }}
                   />{" "}
                   <div className="progress mt-2">
                     <div
@@ -735,8 +746,9 @@ const Home = () => {
                   </div>{" "}
                   <br />
                   <img
-                    src="https://img.icons8.com/color/60/000000/javascript.png"
+                    src="https://img.icons8.com/color/100/000000/javascript.png"
                     title="JavaScript"
+                    style={{ width: 60 }}
                   />{" "}
                   <div className="progress mt-2">
                     <div
@@ -755,10 +767,18 @@ const Home = () => {
               </div>
               <div className="col-6 text-left">
                 <div className="row"></div>
-                <h6 style={{ lineHeight: "2em" }}>
+                <h6
+                  style={{
+                    lineHeight: "2em",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
                   <img
-                    src="https://img.icons8.com/color/60/000000/html-5.png"
+                    src="https://img.icons8.com/color/100/000000/html-5.png"
                     title="HTML"
+                    style={{ width: 60 }}
                   />
                   <div className="progress mt-2">
                     <div
@@ -774,8 +794,9 @@ const Home = () => {
                   </div>{" "}
                   <br />
                   <img
-                    src="https://img.icons8.com/color/60/000000/css3.png"
+                    src="https://img.icons8.com/color/100/000000/css3.png"
                     title="CSS"
+                    style={{ width: 60 }}
                   />{" "}
                   <div className="progress mt-2">
                     <div
@@ -812,10 +833,18 @@ const Home = () => {
             <div className="row">
               <div className="col-6 text-left">
                 <div className="row"></div>
-                <h6 style={{ lineHeight: "2em" }}>
+                <h6
+                  style={{
+                    lineHeight: "2em",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
                   <img
-                    src="https://img.icons8.com/color/60/000000/kotlin.png"
+                    src="https://img.icons8.com/color/100/000000/kotlin.png"
                     title="Kotlin"
+                    style={{ width: 60 }}
                   />
                   <div className="progress mt-2">
                     <div
@@ -845,8 +874,9 @@ const Home = () => {
                   </div>{" "}
                   <br />
                   <img
-                    src="https://img.icons8.com/color/60/000000/sass.png"
+                    src="https://img.icons8.com/color/100/000000/sass.png"
                     title="SASS"
+                    style={{ width: 60 }}
                   />
                   <div className="progress mt-2">
                     <div
@@ -864,10 +894,18 @@ const Home = () => {
               </div>
               <div className="col-6 text-left">
                 <div className="row"></div>
-                <h6 style={{ lineHeight: "2em" }}>
+                <h6
+                  style={{
+                    lineHeight: "2em",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
                   <img
-                    src="https://img.icons8.com/color/60/000000/react-native.png"
+                    src="https://img.icons8.com/color/100/000000/react-native.png"
                     title="ReactJS"
+                    style={{ width: 60 }}
                   />{" "}
                   <div className="progress mt-2">
                     <div
@@ -883,8 +921,9 @@ const Home = () => {
                   </div>{" "}
                   <br />
                   <img
-                    src="https://img.icons8.com/color/60/000000/mongodb.png"
+                    src="https://img.icons8.com/color/100/000000/mongodb.png"
                     title="MongoDB"
+                    style={{ width: 60 }}
                   />{" "}
                   <div className="progress mt-2">
                     <div
@@ -946,6 +985,7 @@ const Home = () => {
                   <br />
                   Done internship as SDE from 3rd January to 1st May 2021 in
                   Juspay Technologies
+                  <br />
                   <br />
                   Done internship as SDE from 1st October to 31st December 2020
                   in Clevup Technologies

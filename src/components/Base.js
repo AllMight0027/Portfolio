@@ -141,7 +141,7 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                   window.scrollTo(
                     0,
                     document.getElementById("skills").getBoundingClientRect()
-                      .top - 50
+                      .top
                   );
                 }}
               >
