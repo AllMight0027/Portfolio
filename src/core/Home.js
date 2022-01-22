@@ -46,14 +46,17 @@ const Home = () => {
           <br />
           <div className="row mt-3 mb-3">
             <div className=" offset-sm-1 col-sm-10 col-sm-4 text-center">
-              <h6 style={{ lineHeight: "2em", fontSize: 16 }}>
-                I am a <b>Full Stack Developer</b> with keen interest in{" "}
-                <b>MERN Stack</b>. I am constantly looking for a challenging
-                taaks to utilize my skills and capabilities through sincere
-                dedication and <i>smart</i> work for symbiont development of
-                both myself, and my team. Presently I am employed at{" "}
-                <b>Advergame Technologies </b> as an <b>SDE</b> and also work as
-                a Consultant at <b>Clevup Technologies</b>.
+              <h6 style={{ lineHeight: "2em" }}>
+                I am a <b>Front-end Heavy Full Stack Developer</b>, with keen
+                interest in{" "}
+                <b>
+                  <i>ReactJS</i>
+                </b>
+                . I am looking for a challenging role to utilise my skills and
+                capabilities through sincere dedication and smart work for
+                symbiotic development of both myself, and my team. Currently
+                employed fulltime at Advergame Technologies as a Software
+                Development Engineer.
               </h6>
             </div>
           </div>
@@ -78,7 +81,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="row mt-3">
+        <div className="row mt-3" style={{ justifyContent: "center" }}>
           {(filter === "" || filter === "Full Stack") && (
             <div className="col-xl-4 col-sm-12 col-md-6 mt-3 mb-3">
               <div
@@ -239,17 +242,7 @@ const Home = () => {
                     <img src="https://img.icons8.com/color/40/000000/sass.png" />
                   </div>
                   <div className="row">
-                    <div className="col-6 text-left">
-                      <a
-                        href="https://github.com/AllMight0027/Weather"
-                        target="_blank"
-                        className="btn pt-2 text-white icon-cog"
-                        style={{ background: "black" }}
-                      >
-                        View Code
-                      </a>
-                    </div>
-                    <div className="col-6 text-right">
+                    <div className="col-12 text-right">
                       <a
                         href="https://allmight0027.github.io/Weather/weather.html"
                         target="_blank"
@@ -398,70 +391,6 @@ const Home = () => {
                     <div className="col-6 text-right">
                       <a
                         href="https://determined-shirley-5a6823.netlify.app/"
-                        target="_blank"
-                        className="btn pt-2 text-white icon-cog"
-                        style={{ background: "black" }}
-                      >
-                        Visit Site
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
-          {(filter === "" || filter === "Frontend") && (
-            <div className="col-xl-4 col-sm-12 col-md-6 mt-3 mb-3">
-              <div
-                className="card mt-1 h-100 text-white"
-                style={{ background: "rgb(40,40,40)" }}
-              >
-                <div
-                  id="carouselExampleIndicators3"
-                  className="carousel slide"
-                  data-ride="carousel"
-                  data-interval="30000"
-                >
-                  <div className="carousel-inner">
-                    <div className="carousel-item active">
-                      <img
-                        className="d-block w-100"
-                        src={require("./weather_icons.png")}
-                        alt="First slide"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="card-body">
-                  <h4 className="card-title mt-1">Weather App</h4>
-                  <p className="card-text ">
-                    A weather forecast app, which is a simple implementation of
-                    the fetch api. The response is fetched on the basis of the
-                    city/district name entered.
-                  </p>{" "}
-                  <div className="row pb-2">
-                    <img
-                      src="https://img.icons8.com/color/40/000000/html-5.png"
-                      className="ml-2"
-                    />{" "}
-                    <img src="https://img.icons8.com/color/40/000000/javascript.png" />{" "}
-                    <img src="https://img.icons8.com/color/40/000000/sass.png" />
-                  </div>
-                  <div className="row">
-                    <div className="col-6 text-left">
-                      <a
-                        href="https://github.com/AllMight0027/Weather"
-                        target="_blank"
-                        className="btn pt-2 text-white icon-cog"
-                        style={{ background: "black" }}
-                      >
-                        View Code
-                      </a>
-                    </div>
-                    <div className="col-6 text-right">
-                      <a
-                        href="https://allmight0027.github.io/Weather/weather.html"
                         target="_blank"
                         className="btn pt-2 text-white icon-cog"
                         style={{ background: "black" }}
@@ -972,91 +901,108 @@ const Home = () => {
 
         <div className="row mt-5 " id="education">
           <div className="col-12 text-center">
-            <h1>EDUCATION</h1>
+            <h1>WORK EXPERIENCE</h1>
           </div>
         </div>
 
         <div className="row ">
-          <div className="col-sm-6 mt-4 text-center">
-            <h3>INTERNSHIPS</h3>
+          <div className="col-12 mt-4 text-center">
             <div className="row">
               <div className="col-12 text-left">
                 <h6 style={{ lineHeight: "1.5em" }}>
                   <br />
-                  Done internship as SDE from 3rd January to 1st May 2021 in
+                  &#8226; &ensp; SDE from 1st June 2021 to present in Advergame
+                  Technologies (Gamezop)
+                  <br />
+                  <br />
+                  &#8226; &ensp; SDE Consultant from 1st January 2021 to present
+                  in Clevup Technologies (Shoopy)
+                  <br />
+                  <br />
+                  &#8226; &ensp; ASDE from 1st April 2021 to 31st May 2021 in
                   Juspay Technologies
                   <br />
                   <br />
-                  Done internship as SDE from 1st October to 31st December 2020
-                  in Clevup Technologies
+                  &#8226; &ensp; SDE Intern from 3rd January 2021 to 31st March
+                  2021 in Juspay Technologies
                   <br />
                   <br />
-                  Done summer internship under Networking program from 1st June
-                  to 30th June 2019 in Den Networks Limited
+                  &#8226; &ensp; SDE Intern from 1st October 2020 to 31st
+                  December 2020 in Clevup Technologies
                   <br />
                   <br />
-                  Done summer internship as QA Engineer from 1st December 2018
-                  to 2nd January 2019 in Guavus Network System Pvt. Ltd.
+                  &#8226; &ensp; Summer internship under Networking program from
+                  1st June 2019 to 30th June 2019 in Den Networks Limited
                   <br />
                   <br />
-                  Done summer internship under Marketing program from 20th May
-                  2018 to 30th June 2018 in Den Networks Limited
-                </h6>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 mt-4 text-center">
-            <h3>CERTIFICATION</h3>
-            <div className="row">
-              <div className="col-12 text-left">
-                <h6 style={{ lineHeight: "1.5em" }}>
-                  <br />
-                  Full Stack MERN Bootcamp &nbsp;&nbsp;
-                  <a
-                    href="https://i.ibb.co/yp4YhJZ/1750097-50332.jpg"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Certificate
-                  </a>
+                  &#8226; &ensp; Summer internship as QA Engineer from 1st
+                  December 2018 to 2nd January 2019 in Guavus Network System
+                  Pvt. Ltd.
                   <br />
                   <br />
-                  Complete back end development with NodeJS &nbsp;&nbsp;
-                  <a
-                    href="https://www.udemy.com/certificate/UC-bd514b3a-cee7-44f7-847d-8f55b43284c0/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Certificate
-                  </a>
-                  <br />
-                  <br />
-                  Kotlin for Beginners &nbsp;&nbsp;
-                  <a
-                    href="https://www.udemy.com/certificate/UC-BM494VF2/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Certificate
-                  </a>
-                  <br />
-                  <br />
-                  Learn Flutter - Beginners Course &nbsp;&nbsp;
-                  <a
-                    href="https://www.udemy.com/certificate/UC-c9fe047f-beb0-48cb-be78-2bcb66969f0f/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View Certificate
-                  </a>
+                  &#8226; &ensp; Summer internship under Marketing program from
+                  20th May 2018 to 30th June 2018 in Den Networks Limited
                 </h6>
               </div>
             </div>
           </div>
         </div>
+        <div className="row mt-5 " id="education">
+          <div className="col-12 text-center">
+            <h1>CERTIFICATIONS</h1>
+          </div>
+        </div>
+        <div className="col-12 mt-4 text-center">
+          <div className="row">
+            <div className="col-12 text-left">
+              <h6 style={{ lineHeight: "1.5em" }}>
+                <br />
+                &#8226; &ensp; Full Stack MERN Bootcamp -&nbsp;
+                <a
+                  href="https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/50332/1750097_50332.pdf?1593881867"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Certificate
+                </a>
+                <br />
+                <br />
+                &#8226; &ensp; Complete back end development with NodeJS -&nbsp;
+                <a
+                  href="https://www.udemy.com/certificate/UC-bd514b3a-cee7-44f7-847d-8f55b43284c0/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Certificate
+                </a>
+                <br />
+                <br />
+                &#8226; &ensp; Kotlin for Beginners -&nbsp;
+                <a
+                  href="https://www.udemy.com/certificate/UC-BM494VF2/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Certificate
+                </a>
+                <br />
+                <br />
+                &#8226; &ensp; Learn Flutter - Beginners Course -&nbsp;
+                <a
+                  href="https://www.udemy.com/certificate/UC-c9fe047f-beb0-48cb-be78-2bcb66969f0f/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Certificate
+                </a>
+              </h6>
+            </div>
+          </div>
+        </div>
+
         <div className="row mt-5">
           <div className="col-12 text-center">
-            <h3>SCHOOLING</h3>
+            <h1>SCHOOLING</h1>
           </div>
         </div>
 
@@ -1065,7 +1011,7 @@ const Home = () => {
             <h6 style={{ lineHeight: "1.5em" }}>
               <br />
               SRM Institute of Science and Technology, Chennai, T.N. 4th Year,
-              B.Tech. Software Engineering, 2021 | Percentage: 83.95%
+              B.Tech. Software Engineering, 2021 | Percentage: 84.98%
               <br />
               <br /> K.V. No.2 AFS, Kanpur, U.P. CBSE 12th Class, 2017 |
               Percentage: 79.6%

@@ -158,7 +158,7 @@ const Base = ({ className = "text-dark p-4", children, history }) => {
                   );
                 }}
               >
-                <InsternshipIcon /> Education{" "}
+                <InsternshipIcon /> Experience{" "}
               </a>
               <a
                 className="pl-4 text-white"
